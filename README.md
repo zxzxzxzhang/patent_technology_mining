@@ -19,10 +19,11 @@ Patent technology mining
 
 ## Usage
 
-### General Scripts
-- Run Jupyter notebooks for specific analyses, such as **Theoretical research and technology gap.ipynb**.
-
-### Evolutionary Path Analysis
+### Theoretical research and technology gap
+```bash
+jupyter notebook 'Theoretical research and technology gap.ipynb'.
+```
+### Evolutionary Path
 Run tools in the `evolutionary_path/` folder for analyzing technology evolution:
 ```bash
 python evolutionary_path/evolutionary_path.py
@@ -31,13 +32,13 @@ jupyter notebook evolutionary_path/evolutionary_path.ipynb
 ```
 Use sankey.ipynb to draw an evolutionary path sankey map
 
-### Network Analysis
+### Network
 For example
 ```bash
 jupyter notebook network/patent_citation_network.ipynb
 ```
 
-### Topic Modeling
+### Country gap
 Explore patent themes with STM tools in the `STM/` folder:
 ```bash
 python STM/STM.ipynb
